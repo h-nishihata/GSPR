@@ -1,7 +1,7 @@
 const int A_UP   = 2;
 const int A_DOWN = 3;
-const int B_UP   = 7;
-const int B_DOWN = 8;
+const int B_UP   = 8;
+const int B_DOWN = 9;
 const int PULSE_MS = 200;  // パルス幅（要調整）
 
 void buttonPressed(int pin)
