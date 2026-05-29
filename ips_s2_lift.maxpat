@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1371.0, 1109.0 ],
+		"rect" : [ 34.0, 100.0, 1501.0, 1109.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -273,7 +273,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1071.0, 431.249989718198776, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "1"
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 929.0, 245.62161260843277, 50.0, 22.0 ],
-					"text" : "-650"
+					"text" : "-400"
 				}
 
 			}
@@ -466,7 +466,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 508.339802324771881, 1041.747558534145355, 50.0, 22.0 ],
-					"text" : "-650"
+					"text" : "-400"
 				}
 
 			}
@@ -485,13 +485,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 486.980579316616058, 902.912608981132507, 76.0, 35.0 ],
-					"text" : "-650, -650 65000"
+					"patching_rect" : [ 486.980579316616058, 902.912608981132507, 76.0, 22.0 ],
+					"text" : "-400, -400 0"
 				}
 
 			}
@@ -597,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 592.0, 40.21138209104538, 174.396140307188034, 20.0 ],
+					"patching_rect" : [ 592.0, 36.772357702255249, 174.396140307188034, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.000006854534149, 20.000000596046448, 158.000004708766937, 20.0 ],
 					"text" : "Velocity calibration (mm/s)"
@@ -626,10 +625,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.5, 45.479674756526947, 161.79773998260498, 20.0 ],
+					"patching_rect" : [ 407.5, 36.772357702255249, 161.79773998260498, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.333333194255829, 20.0, 189.333338975906372, 20.0 ],
-					"text" : "Base height calibration (mm)"
+					"text" : "Base height (mm)"
 				}
 
 			}
@@ -1391,6 +1390,16 @@
 				"patchline" : 				{
 					"destination" : [ "obj-line", 0 ],
 					"midpoints" : [ 1451.382358610630035, 888.0, 471.0, 888.0, 471.0, 942.0, 496.480579316616058, 942.0 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-pipe-go", 0 ],
+					"midpoints" : [ 1451.382358610630035, 390.0, 1428.0, 390.0, 1428.0, 186.0, 1080.5, 186.0 ],
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
