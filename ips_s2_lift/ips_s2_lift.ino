@@ -33,16 +33,5 @@ void loop()
     else if (value == 2) buttonPressed(A_DOWN);
     else if (value == 3) buttonPressed(B_UP);
     else if (value == 4) buttonPressed(B_DOWN);
-    /*else if (value == 5)
-    {
-      // 緊急停止：全チャンネルにパルスを送って止める
-      buttonPressed(A_UP);
-      delay(50);
-      buttonPressed(A_DOWN);
-      delay(50);
-      buttonPressed(B_UP);
-      delay(50);
-      buttonPressed(B_DOWN);
-    }*/
   }
 }
