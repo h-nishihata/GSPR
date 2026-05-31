@@ -1,3 +1,3 @@
 # gsCenter
   
-![](/gspr.jpg)
+![](/ips_s2_lift/gspr.jpg)
