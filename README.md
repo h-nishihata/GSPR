@@ -1,3 +1,5 @@
-# gsCenter
+# GSPR
   
-![](/ips_s2_lift/gspr.jpg)
+![](/ips_s2_lift/gspr.png)
+<br>
+リフトの制御プログラム
