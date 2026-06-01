@@ -1,5 +1,5 @@
 # GSPR
   
-![](/ips_s2_lift/gspr.png)
+![](/gspr.png)
 <br>
 リフトの制御プログラム
